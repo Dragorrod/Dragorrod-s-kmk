@@ -247,7 +247,7 @@ class DragorrodsRealWorldScavengerHuntsGame(Game):
                     weight=2,
                 ),
                 GameObjectiveTemplate(
-                    label="Find and visit if possible MUSEUM_COUNT MUSEUM_TYPE museums or galleries",
+                    label="Find (and visit if possible) MUSEUM_COUNT MUSEUM_TYPE museums or galleries",
                     data={
                         "MUSEUM_COUNT": (self.museum_counts_normal, 1),
                         "MUSEUM_TYPE": (self.museum_types, 1)
@@ -257,7 +257,7 @@ class DragorrodsRealWorldScavengerHuntsGame(Game):
                     weight=2,
                 ),
                 GameObjectiveTemplate(
-                    label="Find and visit if possible MUSEUM_COUNT MUSEUM_TYPE museums or galleries",
+                    label="Find (and visit if possible) MUSEUM_COUNT MUSEUM_TYPE museums or galleries",
                     data={
                         "MUSEUM_COUNT": (self.museum_counts_tc, 1),
                         "MUSEUM_TYPE": (self.museum_types, 1)
@@ -611,7 +611,7 @@ class DragorrodsRealWorldScavengerHuntsGame(Game):
             "A unique building", "A garden", "A bridge",
             "Street vendor stalls", "A clock tower", "A fountain", "A mural",
             "Multiple dogs on a walk", "Animals being fed in a park",
-            "A pet playing outside", "Street art being created", "A protest sign",
+            "A pet playing outside", "Street art", "A protest sign",
             "A uniquely decorated vehicle", "A craft stall", "A flag"
         ]
 
